@@ -1,6 +1,7 @@
 # Anki Word Extension
 
 This Chrome extension allows you to right-click on selected words and add them to Anki automatically.
+(Anki is a flashcard-based spaced repetition application designed to help users efficiently memorize and review information. It is widely used for language learning, medical studies, exam preparation, and general knowledge retention.)
 
 ## Features
 - Right-click context menu to add words to **Anki**.
