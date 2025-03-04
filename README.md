@@ -7,7 +7,7 @@ This Chrome extension allows you to right-click on selected words and add them t
 - Add words to **Anki** using the **AnkiConnect API**.
 
 ## Installation
-1. To install this extension, go to [this GitHub page](https://github.com/yourUsername/anki-word-extension) and **"Clone or Download"** the project.
+1. To install this extension, go to https://github.com/Ferrum91/Anki-right-click-extension and **"Clone or Download"** the project.
 2. Open **chrome://extensions/** in your Chrome browser.
 3. Enable **Developer mode** and click on **"Load unpacked"**.
 4. Select the folder containing the extension files.
