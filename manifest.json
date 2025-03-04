@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Anki Kelime Ekleme Uzantısı",
+    "version": "1.0",
+    "description": "Seçili kelimeyi sağ tıklayarak veya butonla Anki'ye ekleyin.",
+    "permissions": ["contextMenus", "storage", "activeTab"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "http://localhost:8765/"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "action": {
+        "default_icon": "icon.png"  
+    }
+}
